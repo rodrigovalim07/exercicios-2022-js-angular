@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UACompatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UACompatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <div style="width: 400px;">
+            <form>
+                <div class="custom-control customswitch">
+                <input type="checkbox" class="custom-control-input" id="editar">
+                <label class="custom-controllabel" for="editar">Editar</label>
+                </div>
+                <label for="temperatura">Temperatura: </label>
+                <input type="range" class="customrange" min="0" max="10" id="tempertura" name="temperatura">
+            </form>
+        </div>
+        <img class="imgfluid" src="obito.jpg" alt="logotipo" width="200px">
+        <br>
+        <br>
+
+        <button type="button" class="btn btn primary" data-toggle="modal" datatarget="#janela"> Atenção </button>
+
+        <div class="modal" id="janela">
+        <div class="modal-dialog">
+        <div class="modal-content">
+
+        <div class="modal-header">
+        <h4 class="modaltitle">Atenção: </h4>
+        <button type="button" class="close" data-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+        Antes de sair, verifique seu backup diário.
+        </div>
+
+        <div class="modal-footer">
+        <button type="button" class="btn btn-danger" datadismiss="modal">Fechar</button>
+        </div>
+
+        </div>
+        </div>
+        </div>
+
+    </body>
+
+</html>
